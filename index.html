@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1623/1623786.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/1623/1623786.png" alt="Logo">
+        </div>
+        <div class="name">Noodle Network</div>
+        <nav>
+            <a href="https://ramonabeepbop.github.io/send-help/">Home</a>
+            <a href="https://ramonabeepbop.github.io/menu/">Noodlepedia</a>
+            <a href="https://ramonabeepbop.github.io/send-help/">Locations</a>
+
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <div class="filter">
+                <h2>Course</h2>
+                <ul>
+                    <li><button class="course-button" data-course="all">All</button></li>
+                    <li><button class="course-button" data-course="appetizer">Appetizer</button></li>
+                    <li><button class="course-button" data-course="main">Main</button></li>
+                    <li><button class="course-button" data-course="dessert">Dessert</button></li>
+                </ul>
+            </div>
+        </aside>
+        <section class="recipes">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="recipe-list">
+                    <a href="https://www.marionskitchen.com/shoyu-ramen/" class="recipe-card" data-course="main">
+                    <img src="https://static01.nyt.com/images/2024/01/10/multimedia/ND-Shoyu-Ramen-qflv/ND-Shoyu-Ramen-qflv-superJumbo.jpg" alt="Shoyu Ramen">
+                    <h3>Shoyu Ramen</h3>
+                    <p>醤油ラーメン</p>
+                    <p>4.77 ★★★★★ (51)</p>
+                </a>
+                <a href="https://www.chopstickchronicles.com/hanami-dango/" class="recipe-card" data-course="dessert">
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2023/03/Hanami-Dango-6512-I.jpg" alt="Hanami Dango">
+                    <h3>Hanami Dango</h3>
+                    <p>花見団子</p>
+                    <p>4.77 ★★★★★ (21)</p>
+                </a>
+                <a href="https://savvytokyo.com/recipe-sakura-mochi/"class="recipe-card" data-course="dessert">
+                    <img src="https://savvytokyo.scdn3.secure.raxcdn.com/app/uploads/2017/02/iStock-845059736.jpg" alt="Sakura Mochi ">
+                    <h3>Sakura Mochi</h3>
+                    <p>桜餅</p>
+                    <p>4.76 ★★★★★ (264)</p>
+                </a>
+                <a href="https://japan.recipetineats.com/home-made-shio-ramen/"div class="recipe-card" data-course="main">
+                    <img src="https://www.chopstickchronicles.com/wp-content/uploads/2017/11/Shio-Ramen-10-e1666179173996.jpg" alt="Shio Ramen">
+                    <h3>Shio Ramen</h3>
+                    <p>塩ラーメン</p>
+                    <p>4.76 ★★★★★ (135)</p>
+                </a>
+                <a href="https://thefoodieglobetrotter.com/miso-ramen-recipe/" class="recipe-card" data-course="main">
+                    <img src="https://foodisafourletterword.com/wp-content/uploads/2020/11/Instant_Pot_Miso_Ramen_Recipe_hori.jpg" alt="Miso Ramen">
+                    <h3>Miso Ramen</h3>
+                    <p>辛味噌ラーメン</p>
+                    <p>4.85 ★★★★★ (400)</p>
+                </a>
+                <a href="https://asianinspirations.com.au/recipes/tsukemen/" class="recipe-card" data-course="main">
+                    <img src="https://recipes.net/wp-content/uploads/2024/01/how-to-eat-tsukemen-ramen-1706066539.jpg" alt="Tsukemen">
+                    <h3>Tsukemen</h3>
+                    <p>つけ麺</p>
+                    <p>4.92 ★★★★★ (500)</p>
+                </a>
+                <a href="https://www.seriouseats.com/rich-and-creamy-tonkotsu-ramen-broth-from-scratch-recipe"div class="recipe-card" data-course="main">
+                    <img src="https://images.ctfassets.net/c3jfdk52c306/sjAJPJ3L1A1puofM84fle/c9d48a031fc931aedc27984d67b45549/everything-you-need-to-know-about-fukuokas-famed-tonkotsu-ramen_01.jpg?fit=fill&w=1100&h=750&fm=webp" alt="Tonkotsu Ramen">
+                    <h3>Tonkotsu Ramen</h3>
+                    <p>豚骨ラーメン</p>
+                    <p>4.80 ★★★★★ (350)</p>
+                </a>
+                <a href="https://www.justonecookbook.com/beef-udon/" class="recipe-card" data-course="main">
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2021/11/Beef-Udon-4306-I.jpg" alt="Beef Udon">
+                    <h3>Beef Udon</h3>
+                    <p>肉うどん</p>
+                    <p>4.70 ★★★★★ (300)</p>
+                </a>
+                <a href="https://www.justonecookbook.com/homemade-miso-soup/" class="recipe-card" data-course="appetizer">
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I.jpg" alt="Miso Soup">
+                    <h3>Miso Soup</h3>
+                    <p>味噌汁</p>
+                    <p>4.65 ★★★★★ (250)</p>
+                </a>
+                <a href="https://www.seriouseats.com/the-best-japanese-pork-and-cabbage-dumplings-gyoza-recipe" class="recipe-card" data-course="appetizer">
+                    <img src="https://www.seriouseats.com/thmb/_EcB46gGcgDdNxgcTcgUP07A9M4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__03__20150309-gyoza-how-to-japanese-dumpling-recipe-01-3ed20194de34455fb5eac8ad2af1b7a4.jpg" alt="Gyoza">
+                    <h3>Gyoza</h3>
+                    <p>餃子</p>
+                    <p>4.78 ★★★★★ (275)</p>
+                </a>
+                <a href="https://mamaloli.com/recipes/other/takoyaki-recipe/"div class="recipe-card" data-course="appetizer">
+                    <img src="https://mamaloli.com/wp-content/uploads/2011/12/takoyaki-14.jpg" alt="Takoyaki">
+                    <h3>Takoyaki</h3>
+                    <p>たこ焼き</p>
+                    <p>4.83 ★★★★★ (325)</p>
+                </a>
+                <a href="https://www.justonecookbook.com/zaru-soba-cold-soba-noodles/" class="recipe-card" data-course="main">
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2016/07/Zaru-Soba-New-500x400.jpg" alt="Zaru Soba">
+                    <h3>Zaru Soba</h3>
+                    <p>ざるそば</p>
+                    <p>4.76 ★★★★★ (290)</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+</section>
+
+    
+</section>
+
+<footer>
+    <p>Made by cats, Powered by spite</p>
+    <p>Follow us on social media: Facebook | Twitter | Instagram</p>
+</footer>
+</body>
+</html>
